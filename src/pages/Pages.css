@@ -8,14 +8,14 @@
     
     
     
-    .App-header {
+    body>.App-header {
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       font-size: calc(10px + 2vmin);
-      color: white;
+      color: black;
       
     }
     
@@ -54,12 +54,15 @@
    
     
        
-    
-    body{
-      width: 100%;
-      min-height: 100vh;
-      background: url('../components/images/background.jpeg');
+    .homePage{
+      
+    }
+    .homeBackground{
+      background: url('../components/images/coming-soon.png') no-repeat;
       background-size: cover;
+      background-position: center;
+     width: 100%;
+     height: 100vh;
     }
     
     .nav-link{

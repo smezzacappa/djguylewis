@@ -14,9 +14,9 @@ import './Component.css';
 const NavBarBot = () =>(
 <Navbar  bg="dark" variant="dark" fixed="bottom" className="Links">
 <Container className="NavIcons">
-<Nav.Link href="#Instagram"><FaInstagram/></Nav.Link>
-<Nav.Link href="#Facebook"><FaFacebook/></Nav.Link>
-<Nav.Link href="#SoundCloud"><FaSoundcloud/></Nav.Link>
+<Nav.Link href="https://www.instagram.com/dj_guy_lewis/"><FaInstagram/></Nav.Link>
+<Nav.Link href="https://www.facebook.com/guy.lewis.1000"><FaFacebook/></Nav.Link>
+<Nav.Link href="https://soundcloud.com/djguylewis"><FaSoundcloud/></Nav.Link>
 <Navbar.Brand href="/" >Guy Lewis</Navbar.Brand></Container>
 </Navbar>
 )

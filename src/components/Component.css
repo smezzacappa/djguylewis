@@ -21,6 +21,7 @@
     
     .Links{
     font-family: 'Rock Salt', cursive;
+    color: #6735aa !important;
     
     /* display: flex; */
     justify-content: flex-end;
@@ -32,7 +33,7 @@
       /* margin-right: 10px; */
       /* padding: 2px; */
       font-size: 40px;
-      color: black !important;
+      color: #6735aa !important;
       display: flex !important;
       margin: auto;
       /* align-items: flex-start; */
@@ -106,5 +107,5 @@
     }
     
     .nav-link>a{
-        color: black !important;
+        color: rgb(156, 40, 141) !important;
     }

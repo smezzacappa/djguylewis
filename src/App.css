@@ -22,7 +22,7 @@ background-color: black
 
 .Links{
 font-family: 'Rock Salt', cursive;
-
+color: aqua !important;
 /* display: flex; */
 justify-content: flex-end;
 box-shadow: 0px 0px 20px 10px black;
@@ -33,13 +33,14 @@ border-top-color: #000000;
   /* margin-right: 10px; */
   /* padding: 2px; */
   font-size: 40px;
-  color: black !important;
+  color: rgb(127, 74, 177) !important;
   display: flex !important;
   margin: auto;
   /* align-items: flex-start; */
   float: left;
   width: 100%;
 }
+
 
 
  
@@ -104,4 +105,5 @@ td{
   margin: 0% !important;
   padding: 0% !important; 
   background-image: cover;
+  background-color: black;
 }

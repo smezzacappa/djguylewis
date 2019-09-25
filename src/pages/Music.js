@@ -5,14 +5,14 @@ import background from '../components/images/background.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { /*Media, Button, Form, FormControl, Col, Card,*/ Nav, Row,  Navbar, Image,  Container} from 'react-bootstrap';
 // import {FaInstagram, FaFacebook, FaSoundcloud} from 'react-icons/fa';
-import './Pages.css';
+import './PagesMusic.css';
 
 const Music = () =>{
 
 
     return( 
-      <body>
-        
+      <body >
+        <Container className="background" fluid></Container>
       </body>
     );
 

@@ -16,10 +16,8 @@ class Home extends Component{
         return(
 
 
-   <body >
-       <Container className="App-header">
-       <Card> Hello World</Card>
-       </Container>
+   <body className="homePage">
+       <div className="homeBackground"></div>
    </body>
     )
 } 

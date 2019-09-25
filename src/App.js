@@ -21,8 +21,8 @@
 
       <React.Fragment>
       <Router>
-
-      <Image src={junior} alt="Junior" fluid/>
+<div className="col">
+      <Image src={junior} alt="Junior" id="junior" fluid/></div>
         <NavBarTop />
           <Switch>
             <Route exact path="/" component={Home} />
