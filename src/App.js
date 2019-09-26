@@ -26,8 +26,8 @@
         <NavBarTop />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/music" component={Music} />
-            <Route path="/bio" component={Bio} />
+            <Route  path="/music" component={Music} />
+            <Route  path="/bio" component={Bio} />
           </Switch>
       <NavBarBot/>
       </Router>
